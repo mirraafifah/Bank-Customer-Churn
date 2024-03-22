@@ -1,20 +1,20 @@
-Bank Customer Churn Prediction
-STAGE 1
-BACKGROUND:
+#Bank Customer Churn Prediction
+##STAGE 1
+###BACKGROUND:
 
 A bank is a financial institution that has influence on a country's economy. However, the competitive banking sector led to a increase in customer churn. Bank churn rates generally range from 5-10%. Increasing retention rates by as much as 5% can increase a bank's revenue by as much as 85%. Thus, customer reductions should be preventable in the way companies should invest more in maintaining relationships with customers.
 
 Based on the existing dataset, our company has a churn rate by 20.37%. This number is quite high, so it is likely that customers to close the account or customer reductions will be quite a lot. So, an action is needed to predict the customer who will churn by creating machine learning models.
 
-GOAL:
+###GOAL:
 
 Lower the churn rate
 
-OBJECTIVES:
+###OBJECTIVES:
 
 Build a classification model that can predict which customers will churn or not
 
-BUSINESS INSIGHT FROM EDA
+##BUSINESS INSIGHT FROM EDA
 
 1. Geography
 
@@ -55,9 +55,9 @@ Meningkatkan Nasabah dari yang memiliki produk 1 menjadi produk 2 dengan cara pr
 4.Age
 
 Memberikan promosi seperti diskon pembelian makan jika melakukan pembayaran bank tersebut dengan target nasabah usia produktif bekerja (40 tahun ke atas). Menawarkan produk persiapan pensiun dengan return yang tinggi kepada target nasabah usia 40-50 tahun.
-STAGE 2
-Data Pre-Processing
-A. Data Cleansing
+##STAGE 2
+##Data Pre-Processing
+###A. Data Cleansing
 
 A. Handle missing values
 
@@ -95,7 +95,7 @@ F. Handle Class Imbalance
 
 Melakukan pemisahan untuk data train dan data test dengan komposisi 70% untuk training & 30% untuk testing. Dari hasil pemisahan data ini ytrain = 5574 dan ytest = 1426. Sehingga untuk dilakukan Handle Class Imbalance agar data tidak timpang, kami menggunakan SMOTE Oversampling. Hal ini disebabkan data yang kami miliki berjumlah sedikit. Sehingga diperoleh ytrain = 5574 dan ytest = 5574.
 
-B. Feature Engineering
+###B. Feature Engineering
 
 A. Feature selection
 
