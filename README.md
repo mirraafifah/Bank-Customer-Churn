@@ -10,11 +10,11 @@ Based on the existing dataset, our company has a churn rate by 20.37%. This numb
 
 Lower the churn rate
 
-###OBJECTIVES:
+<h3>OBJECTIVES:</h3>
 
 Build a classification model that can predict which customers will churn or not
 
-##BUSINESS INSIGHT FROM EDA
+<h2>BUSINESS INSIGHT FROM EDA</h2>
 
 1. Geography
 
@@ -55,9 +55,10 @@ Meningkatkan Nasabah dari yang memiliki produk 1 menjadi produk 2 dengan cara pr
 4.Age
 
 Memberikan promosi seperti diskon pembelian makan jika melakukan pembayaran bank tersebut dengan target nasabah usia produktif bekerja (40 tahun ke atas). Menawarkan produk persiapan pensiun dengan return yang tinggi kepada target nasabah usia 40-50 tahun.
-##STAGE 2
-##Data Pre-Processing
-###A. Data Cleansing
+
+<h2>STAGE 2</h2>
+<h2>Data Pre-Processing</h2>
+<h3>A. Data Cleansing</h3>
 
 A. Handle missing values
 
@@ -95,7 +96,7 @@ F. Handle Class Imbalance
 
 Melakukan pemisahan untuk data train dan data test dengan komposisi 70% untuk training & 30% untuk testing. Dari hasil pemisahan data ini ytrain = 5574 dan ytest = 1426. Sehingga untuk dilakukan Handle Class Imbalance agar data tidak timpang, kami menggunakan SMOTE Oversampling. Hal ini disebabkan data yang kami miliki berjumlah sedikit. Sehingga diperoleh ytrain = 5574 dan ytest = 5574.
 
-###B. Feature Engineering
+<h3>B. Feature Engineering</h3>
 
 A. Feature selection
 
