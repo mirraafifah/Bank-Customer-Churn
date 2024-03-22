@@ -1,12 +1,12 @@
-#Bank Customer Churn Prediction
-##STAGE 1
-###BACKGROUND:
+<h1>Bank Customer Churn Prediction </h1>
+<h2>STAGE 1</h2>
+<h3>BACKGROUND:</h3>
 
 A bank is a financial institution that has influence on a country's economy. However, the competitive banking sector led to a increase in customer churn. Bank churn rates generally range from 5-10%. Increasing retention rates by as much as 5% can increase a bank's revenue by as much as 85%. Thus, customer reductions should be preventable in the way companies should invest more in maintaining relationships with customers.
 
 Based on the existing dataset, our company has a churn rate by 20.37%. This number is quite high, so it is likely that customers to close the account or customer reductions will be quite a lot. So, an action is needed to predict the customer who will churn by creating machine learning models.
 
-###GOAL:
+<h3>GOAL:</h3>
 
 Lower the churn rate
 
